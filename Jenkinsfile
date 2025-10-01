@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/imrankhanmohammad257/docker-multi-stage-example.git'
+                git branch: 'master', url: 'https://github.com/imrankhanmohammad257/docker-multi-stage-example.git'
             }
         }
 
