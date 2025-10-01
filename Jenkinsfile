@@ -14,7 +14,7 @@ pipeline {
             }
         }
 
-        stage('Build JAR') {
+        stage('Build JAR on Jenkins Host') {
             steps {
                 sh './mvnw clean package -DskipTests'
             }
